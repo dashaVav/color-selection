@@ -21,6 +21,7 @@ public class ColorsActivity extends Activity implements View.OnClickListener {
         backButton.setOnClickListener(this);
     }
 
+
     private void setColor() {
         Intent intent = getIntent();
         if (intent == null) {
